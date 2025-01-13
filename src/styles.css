@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+header {
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BFFF93;
+    width: 100%;
+    height: 4rem;
+}
