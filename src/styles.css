@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-h1, h2, h3, p, li {
+h1, h2, h3, p, li, button {
     font-family: "Poppins";
 }
 
@@ -22,9 +22,23 @@ header {
     position: absolute;
 }
 
+nav {
+    display: flex;
+}
+
 button {
+    color:black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    height: 4rem;
     border: none;
+    margin: none;
+    background-color: transparent;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: rgb(191, 191, 191);
 }
 
 #content {
@@ -156,6 +170,7 @@ footer {
 
 svg {
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 svg:hover{
