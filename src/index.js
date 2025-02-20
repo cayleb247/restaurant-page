@@ -25,4 +25,4 @@ aboutButton.addEventListener("click", () => {
 })
 
 
-// createHome();
+createHome();
