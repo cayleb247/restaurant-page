@@ -2,7 +2,7 @@ function createHome() {
     const content = document.querySelector("#content");
 
     const homeBackground = document.createElement("div");
-    homeBackground.setAttribute("class", "home-background");
+    homeBackground.setAttribute("class", "background");
 
     content.appendChild(homeBackground);
 
